@@ -1,0 +1,1718 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Poco">
+      <UniqueIdentifier>{6658da42-5cd8-400e-8a9b-6fdc50c5c531}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Base32Encoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Base64Decoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Base64Encoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bignum.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bignum-dtoa.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BinaryReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BinaryWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Bugcheck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ByteOrder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cached-powers.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Channel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Checksum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Clock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\compress.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Condition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Configurable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ConsoleChannel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CountingStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crc32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DataURIStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DataURIStreamFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DateTime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DateTimeFormat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DateTimeFormatter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DateTimeParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Debugger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\deflate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DeflatingStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DigestEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DigestStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DirectoryIterator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DirectoryIteratorStrategy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DirectoryWatcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\double-to-string.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Environment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Error.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ErrorHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Event.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EventArgs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EventChannel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Exception.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fast-dtoa.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FIFOBufferStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\File.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FileChannel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FileStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FileStreamFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fixed-dtoa.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Format.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Formatter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FormattingChannel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FPEnvironment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Glob.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Hash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HashStatistic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HexBinaryDecoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HexBinaryEncoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\infback.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\inffast.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\inflate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\InflatingStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\inftrees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\JSONString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Latin1Encoding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Latin2Encoding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Latin9Encoding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LineEndingConverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LocalDateTime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LogFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LoggingFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LoggingRegistry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LogStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Manifest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MD4Engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MD5Engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MemoryPool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MemoryStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Message.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mutex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NamedEvent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NamedMutex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NestedDiagnosticContext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Notification.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NotificationCenter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NotificationQueue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NullChannel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NullStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NumberFormatter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NumberParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NumericString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Path.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PatternFormatter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pcre2_auto_possess.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pcre2_chartables.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pcre2_compile.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pcre2_config.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pcre2_context.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pcre2_convert.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pcre2_dfa_match.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pcre2_error.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pcre2_extuni.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pcre2_find_bracket.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pcre2_jit_compile.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pcre2_maketables.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pcre2_match.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pcre2_match_data.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pcre2_newline.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pcre2_ord2utf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pcre2_pattern_info.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pcre2_script_run.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pcre2_serialize.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pcre2_string_utils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pcre2_study.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pcre2_substitute.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pcre2_substring.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pcre2_tables.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pcre2_ucd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pcre2_ucptables.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pcre2_valid_utf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pcre2_xclass.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Pipe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PipeImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PipeStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PriorityNotificationQueue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Process.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PurgeStrategy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Random.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RandomStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RefCountedObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RegularExpression.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RotateStrategy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Runnable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RWLock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Semaphore.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SHA1Engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SHA2Engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SharedLibrary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SharedMemory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SignalHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SimpleFileChannel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SortedDirectoryIterator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SplitterChannel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Stopwatch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StreamChannel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StreamConverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StreamCopier.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StreamTokenizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\String.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\string-to-double.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StringTokenizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\strtod.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SynchronizedObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Task.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TaskManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TaskNotification.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TeeStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TemporaryFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TextBufferIterator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TextConverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TextEncoding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TextIterator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Thread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ThreadLocal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ThreadPool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ThreadTarget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TimedNotificationQueue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Timespan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Timestamp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Timezone.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Token.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\trees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Unicode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UnicodeConverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\URI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\URIStreamFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\URIStreamOpener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UTF8Encoding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UTF8String.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UTF16Encoding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UTF32Encoding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UUID.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UUIDGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Var.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\VarHolder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\VarIterator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Void.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Windows1250Encoding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Windows1251Encoding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Windows1252Encoding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WindowsConsoleChannel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\zutil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AbstractObserver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ActiveDispatcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\adler32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ArchiveStrategy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Ascii.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ASCIIEncoding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AsyncChannel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AtomicCounter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AtomicFlag.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Base32Decoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EventLogChannel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\bignum.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bignum-dtoa.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cached-powers.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\crc32.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\deflate.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\diy-fp.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\double-conversion.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\double-to-string.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fast-dtoa.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fixed-dtoa.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gzguts.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ieee.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inffast.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inffixed.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inflate.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inftrees.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pcre2.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pcre2_config.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pcre2_internal.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pcre2_intmodedep.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pcre2_ucp.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\string-to-double.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\strtod.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\trees.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ucp.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\zconf.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\zlib.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\zutil.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\AbstractCache.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\AbstractDelegate.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\AbstractEvent.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\AbstractObserver.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\AbstractPriorityDelegate.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\AbstractStrategy.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\AccessExpirationDecorator.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\AccessExpireCache.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\AccessExpireLRUCache.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\AccessExpireStrategy.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\ActiveDispatcher.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\ActiveMethod.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\ActiveResult.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\ActiveRunnable.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\ActiveStarter.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Activity.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Alignment.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Any.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\ArchiveStrategy.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Array.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Ascii.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\ASCIIEncoding.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\AsyncChannel.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\AtomicCounter.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\AtomicFlag.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\AutoPtr.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\AutoReleasePool.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Base32Decoder.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Base32Encoder.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Base64Decoder.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Base64Encoder.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\BasicEvent.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\BinaryReader.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\BinaryWriter.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Buffer.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\BufferAllocator.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\BufferedBidirectionalStreamBuf.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\BufferedStreamBuf.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Bugcheck.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\ByteOrder.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Channel.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Checksum.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\ClassLibrary.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\ClassLoader.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Clock.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Condition.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Config.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Configurable.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\ConsoleChannel.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\CountingStream.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\DataURIStream.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\DataURIStreamFactory.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\DateTime.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\DateTimeFormat.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\DateTimeFormatter.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\DateTimeParser.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Debugger.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\DefaultStrategy.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\DeflatingStream.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Delegate.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\DigestEngine.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\DigestStream.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\DirectoryIterator.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\DirectoryIterator_UNIX.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\DirectoryIterator_WIN32U.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\DirectoryIteratorStrategy.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\DirectoryWatcher.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\DynamicAny.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\DynamicAnyHolder.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\DynamicFactory.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\DynamicStruct.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Environment.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Environment_UNIX.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Environment_VX.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Environment_WIN32U.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Environment_WINCE.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Error.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\ErrorHandler.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Event.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Event_POSIX.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Event_VX.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Event_WIN32.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\EventArgs.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\EventChannel.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\EventLogChannel.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Exception.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\ExpirationDecorator.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Expire.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\ExpireCache.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\ExpireLRUCache.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\ExpireStrategy.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\FIFOBuffer.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\FIFOBufferStream.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\FIFOEvent.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\FIFOStrategy.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\File.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\File_UNIX.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\File_VX.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\File_WIN32U.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\File_WINCE.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\FileChannel.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\FileStream.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\FileStream_POSIX.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\FileStream_WIN32.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\FileStreamFactory.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Format.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Formatter.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\FormattingChannel.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Foundation.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\FPEnvironment.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\FPEnvironment_C99.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\FPEnvironment_DEC.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\FPEnvironment_DUMMY.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\FPEnvironment_QNX.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\FPEnvironment_SUN.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\FPEnvironment_WIN32.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\FunctionDelegate.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\FunctionPriorityDelegate.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Glob.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Hash.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\HashFunction.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\HashMap.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\HashSet.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\HashStatistic.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\HashTable.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\HexBinaryDecoder.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\HexBinaryEncoder.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\HMACEngine.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\InflatingStream.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Instantiator.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\JSONString.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\KeyValueArgs.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Latin1Encoding.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Latin2Encoding.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Latin9Encoding.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\LinearHashTable.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\LineEndingConverter.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\ListMap.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\LocalDateTime.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\LogFile.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\LogFile_STD.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\LogFile_WIN32U.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Logger.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\LoggingFactory.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\LoggingRegistry.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\LogStream.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\LRUCache.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\LRUStrategy.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Manifest.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\MD4Engine.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\MD5Engine.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\MemoryPool.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\MemoryStream.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Message.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\MetaObject.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\MetaProgramming.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Mutex.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Mutex_POSIX.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Mutex_VX.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Mutex_WIN32.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Mutex_WINCE.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\NamedEvent.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\NamedEvent_Android.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\NamedEvent_UNIX.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\NamedEvent_WIN32U.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\NamedMutex.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\NamedMutex_Android.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\NamedMutex_UNIX.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\NamedMutex_WIN32U.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\NamedTuple.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\NestedDiagnosticContext.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\NObserver.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Notification.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\NotificationCenter.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\NotificationQueue.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\NotificationStrategy.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Nullable.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\NullChannel.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\NullStream.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\NumberFormatter.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\NumberParser.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\NumericString.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\ObjectPool.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Observer.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Optional.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\ordered_hash.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\ordered_map.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\ordered_set.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\OrderedMap.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\OrderedSet.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Dynamic\Pair.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Path.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Path_UNIX.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Path_WIN32U.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Path_WINCE.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\PatternFormatter.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\PBKDF2Engine.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Pipe.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\PipeImpl.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\PipeImpl_DUMMY.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\PipeImpl_POSIX.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\PipeImpl_WIN32.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\PipeStream.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Platform.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Platform_POSIX.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Platform_VX.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Platform_WIN32.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Poco.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\PriorityDelegate.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\PriorityEvent.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\PriorityExpire.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\PriorityNotificationQueue.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\PriorityStrategy.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Process.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Process_UNIX.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Process_VX.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Process_WIN32U.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Process_WINCE.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\PurgeStrategy.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Random.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\RandomStream.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\RecursiveDirectoryIterator.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\RecursiveDirectoryIteratorImpl.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\RefCountedObject.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\RegularExpression.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\RotateStrategy.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Runnable.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\RunnableAdapter.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\RWLock.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\RWLock_Android.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\RWLock_POSIX.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\RWLock_VX.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\RWLock_WIN32.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\RWLock_WINCE.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\ScopedLock.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\ScopedUnlock.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Semaphore.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Semaphore_POSIX.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Semaphore_VX.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Semaphore_WIN32.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\SHA1Engine.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\SHA2Engine.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\SharedLibrary.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\SharedLibrary_HPUX.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\SharedLibrary_UNIX.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\SharedLibrary_VX.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\SharedLibrary_WIN32U.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\SharedMemory.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\SharedMemory_DUMMY.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\SharedMemory_POSIX.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\SharedMemory_WIN32.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\SharedPtr.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\SignalHandler.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\SimpleFileChannel.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\SimpleHashTable.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\SingletonHolder.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\SortedDirectoryIterator.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\SplitterChannel.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Stopwatch.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\StrategyCollection.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\StreamChannel.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\StreamConverter.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\StreamCopier.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\StreamTokenizer.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\StreamUtil.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\String.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\StringTokenizer.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Dynamic\Struct.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\SynchronizedObject.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\SyslogChannel.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Task.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\TaskManager.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\TaskNotification.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\TeeStream.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\TemporaryFile.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\TextBufferIterator.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\TextConverter.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\TextEncoding.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\TextIterator.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Thread.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Thread_POSIX.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Thread_VX.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Thread_WIN32.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Thread_WINCE.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\ThreadLocal.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\ThreadPool.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\ThreadTarget.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\TimedNotificationQueue.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Timer.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Timespan.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Timestamp.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Timezone.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Token.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Tuple.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\TypeList.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Types.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\UnbufferedStreamBuf.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Unicode.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\UnicodeConverter.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\UniqueAccessExpireCache.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\UniqueAccessExpireLRUCache.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\UniqueAccessExpireStrategy.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\UniqueExpireCache.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\UniqueExpireLRUCache.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\UniqueExpireStrategy.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\UnWindows.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\URI.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\URIStreamFactory.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\URIStreamOpener.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\UTF8Encoding.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\UTF8String.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\UTF16Encoding.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\UTF32Encoding.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\UTFString.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\UUID.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\UUIDGenerator.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\ValidArgs.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Dynamic\Var.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Dynamic\VarHolder.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Dynamic\VarIterator.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Version.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Void.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Windows1250Encoding.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Windows1251Encoding.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\Windows1252Encoding.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\WindowsConsoleChannel.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\zconf.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\zlib.h">
+      <Filter>Header Files\Poco</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pocomsg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\MSG00001.bin">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="src\pocomsg.mc">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

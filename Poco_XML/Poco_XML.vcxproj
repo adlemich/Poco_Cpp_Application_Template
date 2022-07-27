@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Poco\DOM\AbstractContainerNode.h" />
+    <ClInclude Include="include\Poco\DOM\AbstractNode.h" />
+    <ClInclude Include="include\Poco\DOM\Attr.h" />
+    <ClInclude Include="include\Poco\DOM\AttrMap.h" />
+    <ClInclude Include="include\Poco\DOM\AutoPtr.h" />
+    <ClInclude Include="include\Poco\DOM\CDATASection.h" />
+    <ClInclude Include="include\Poco\DOM\CharacterData.h" />
+    <ClInclude Include="include\Poco\DOM\ChildNodesList.h" />
+    <ClInclude Include="include\Poco\DOM\Comment.h" />
+    <ClInclude Include="include\Poco\DOM\Document.h" />
+    <ClInclude Include="include\Poco\DOM\DocumentEvent.h" />
+    <ClInclude Include="include\Poco\DOM\DocumentFragment.h" />
+    <ClInclude Include="include\Poco\DOM\DocumentType.h" />
+    <ClInclude Include="include\Poco\DOM\DOMBuilder.h" />
+    <ClInclude Include="include\Poco\DOM\DOMException.h" />
+    <ClInclude Include="include\Poco\DOM\DOMImplementation.h" />
+    <ClInclude Include="include\Poco\DOM\DOMObject.h" />
+    <ClInclude Include="include\Poco\DOM\DOMParser.h" />
+    <ClInclude Include="include\Poco\DOM\DOMSerializer.h" />
+    <ClInclude Include="include\Poco\DOM\DOMWriter.h" />
+    <ClInclude Include="include\Poco\DOM\DTDMap.h" />
+    <ClInclude Include="include\Poco\DOM\Element.h" />
+    <ClInclude Include="include\Poco\DOM\ElementsByTagNameList.h" />
+    <ClInclude Include="include\Poco\DOM\Entity.h" />
+    <ClInclude Include="include\Poco\DOM\EntityReference.h" />
+    <ClInclude Include="include\Poco\DOM\Event.h" />
+    <ClInclude Include="include\Poco\DOM\EventDispatcher.h" />
+    <ClInclude Include="include\Poco\DOM\EventException.h" />
+    <ClInclude Include="include\Poco\DOM\EventListener.h" />
+    <ClInclude Include="include\Poco\DOM\EventTarget.h" />
+    <ClInclude Include="include\Poco\DOM\MutationEvent.h" />
+    <ClInclude Include="include\Poco\DOM\NamedNodeMap.h" />
+    <ClInclude Include="include\Poco\DOM\Node.h" />
+    <ClInclude Include="include\Poco\DOM\NodeAppender.h" />
+    <ClInclude Include="include\Poco\DOM\NodeFilter.h" />
+    <ClInclude Include="include\Poco\DOM\NodeIterator.h" />
+    <ClInclude Include="include\Poco\DOM\NodeList.h" />
+    <ClInclude Include="include\Poco\DOM\Notation.h" />
+    <ClInclude Include="include\Poco\DOM\ProcessingInstruction.h" />
+    <ClInclude Include="include\Poco\DOM\Text.h" />
+    <ClInclude Include="include\Poco\DOM\TreeWalker.h" />
+    <ClInclude Include="include\Poco\SAX\Attributes.h" />
+    <ClInclude Include="include\Poco\SAX\AttributesImpl.h" />
+    <ClInclude Include="include\Poco\SAX\ContentHandler.h" />
+    <ClInclude Include="include\Poco\SAX\DeclHandler.h" />
+    <ClInclude Include="include\Poco\SAX\DefaultHandler.h" />
+    <ClInclude Include="include\Poco\SAX\DTDHandler.h" />
+    <ClInclude Include="include\Poco\SAX\EntityResolver.h" />
+    <ClInclude Include="include\Poco\SAX\EntityResolverImpl.h" />
+    <ClInclude Include="include\Poco\SAX\ErrorHandler.h" />
+    <ClInclude Include="include\Poco\SAX\InputSource.h" />
+    <ClInclude Include="include\Poco\SAX\LexicalHandler.h" />
+    <ClInclude Include="include\Poco\SAX\Locator.h" />
+    <ClInclude Include="include\Poco\SAX\LocatorImpl.h" />
+    <ClInclude Include="include\Poco\SAX\NamespaceSupport.h" />
+    <ClInclude Include="include\Poco\SAX\SAXException.h" />
+    <ClInclude Include="include\Poco\SAX\SAXParser.h" />
+    <ClInclude Include="include\Poco\SAX\WhitespaceFilter.h" />
+    <ClInclude Include="include\Poco\SAX\XMLFilter.h" />
+    <ClInclude Include="include\Poco\SAX\XMLFilterImpl.h" />
+    <ClInclude Include="include\Poco\SAX\XMLReader.h" />
+    <ClInclude Include="include\Poco\XML\Content.h" />
+    <ClInclude Include="include\Poco\XML\expat.h" />
+    <ClInclude Include="include\Poco\XML\expat_external.h" />
+    <ClInclude Include="include\Poco\XML\Name.h" />
+    <ClInclude Include="include\Poco\XML\NamePool.h" />
+    <ClInclude Include="include\Poco\XML\NamespaceStrategy.h" />
+    <ClInclude Include="include\Poco\XML\ParserEngine.h" />
+    <ClInclude Include="include\Poco\XML\QName.h" />
+    <ClInclude Include="include\Poco\XML\ValueTraits.h" />
+    <ClInclude Include="include\Poco\XML\XML.h" />
+    <ClInclude Include="include\Poco\XML\XMLException.h" />
+    <ClInclude Include="include\Poco\XML\XMLStream.h" />
+    <ClInclude Include="include\Poco\XML\XMLStreamParser.h" />
+    <ClInclude Include="include\Poco\XML\XMLStreamParserException.h" />
+    <ClInclude Include="include\Poco\XML\XMLString.h" />
+    <ClInclude Include="include\Poco\XML\XMLWriter.h" />
+    <ClInclude Include="src\ascii.h" />
+    <ClInclude Include="src\asciitab.h" />
+    <ClInclude Include="src\expat_config.h" />
+    <ClInclude Include="src\iasciitab.h" />
+    <ClInclude Include="src\internal.h" />
+    <ClInclude Include="src\latin1tab.h" />
+    <ClInclude Include="src\nametab.h" />
+    <ClInclude Include="src\siphash.h" />
+    <ClInclude Include="src\utf8tab.h" />
+    <ClInclude Include="src\xmlrole.h" />
+    <ClInclude Include="src\xmltok.h" />
+    <ClInclude Include="src\xmltok_impl.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\AbstractContainerNode.cpp" />
+    <ClCompile Include="src\AbstractNode.cpp" />
+    <ClCompile Include="src\Attr.cpp" />
+    <ClCompile Include="src\Attributes.cpp" />
+    <ClCompile Include="src\AttributesImpl.cpp" />
+    <ClCompile Include="src\AttrMap.cpp" />
+    <ClCompile Include="src\CDATASection.cpp" />
+    <ClCompile Include="src\CharacterData.cpp" />
+    <ClCompile Include="src\ChildNodesList.cpp" />
+    <ClCompile Include="src\Comment.cpp" />
+    <ClCompile Include="src\ContentHandler.cpp" />
+    <ClCompile Include="src\DeclHandler.cpp" />
+    <ClCompile Include="src\DefaultHandler.cpp" />
+    <ClCompile Include="src\Document.cpp" />
+    <ClCompile Include="src\DocumentEvent.cpp" />
+    <ClCompile Include="src\DocumentFragment.cpp" />
+    <ClCompile Include="src\DocumentType.cpp" />
+    <ClCompile Include="src\DOMBuilder.cpp" />
+    <ClCompile Include="src\DOMException.cpp" />
+    <ClCompile Include="src\DOMImplementation.cpp" />
+    <ClCompile Include="src\DOMObject.cpp" />
+    <ClCompile Include="src\DOMParser.cpp" />
+    <ClCompile Include="src\DOMSerializer.cpp" />
+    <ClCompile Include="src\DOMWriter.cpp" />
+    <ClCompile Include="src\DTDHandler.cpp" />
+    <ClCompile Include="src\DTDMap.cpp" />
+    <ClCompile Include="src\Element.cpp" />
+    <ClCompile Include="src\ElementsByTagNameList.cpp" />
+    <ClCompile Include="src\Entity.cpp" />
+    <ClCompile Include="src\EntityReference.cpp" />
+    <ClCompile Include="src\EntityResolver.cpp" />
+    <ClCompile Include="src\EntityResolverImpl.cpp" />
+    <ClCompile Include="src\ErrorHandler.cpp" />
+    <ClCompile Include="src\Event.cpp" />
+    <ClCompile Include="src\EventDispatcher.cpp" />
+    <ClCompile Include="src\EventException.cpp" />
+    <ClCompile Include="src\EventListener.cpp" />
+    <ClCompile Include="src\EventTarget.cpp" />
+    <ClCompile Include="src\InputSource.cpp" />
+    <ClCompile Include="src\LexicalHandler.cpp" />
+    <ClCompile Include="src\Locator.cpp" />
+    <ClCompile Include="src\LocatorImpl.cpp" />
+    <ClCompile Include="src\MutationEvent.cpp" />
+    <ClCompile Include="src\Name.cpp" />
+    <ClCompile Include="src\NamedNodeMap.cpp" />
+    <ClCompile Include="src\NamePool.cpp" />
+    <ClCompile Include="src\NamespaceStrategy.cpp" />
+    <ClCompile Include="src\NamespaceSupport.cpp" />
+    <ClCompile Include="src\Node.cpp" />
+    <ClCompile Include="src\NodeAppender.cpp" />
+    <ClCompile Include="src\NodeFilter.cpp" />
+    <ClCompile Include="src\NodeIterator.cpp" />
+    <ClCompile Include="src\NodeList.cpp" />
+    <ClCompile Include="src\Notation.cpp" />
+    <ClCompile Include="src\ParserEngine.cpp" />
+    <ClCompile Include="src\ProcessingInstruction.cpp" />
+    <ClCompile Include="src\QName.cpp" />
+    <ClCompile Include="src\SAXException.cpp" />
+    <ClCompile Include="src\SAXParser.cpp" />
+    <ClCompile Include="src\Text.cpp" />
+    <ClCompile Include="src\TreeWalker.cpp" />
+    <ClCompile Include="src\ValueTraits.cpp" />
+    <ClCompile Include="src\WhitespaceFilter.cpp" />
+    <ClCompile Include="src\XMLException.cpp" />
+    <ClCompile Include="src\XMLFilter.cpp" />
+    <ClCompile Include="src\XMLFilterImpl.cpp" />
+    <ClCompile Include="src\xmlparse.cpp" />
+    <ClCompile Include="src\XMLReader.cpp" />
+    <ClCompile Include="src\xmlrole.c" />
+    <ClCompile Include="src\XMLStreamParser.cpp" />
+    <ClCompile Include="src\XMLStreamParserException.cpp" />
+    <ClCompile Include="src\XMLString.cpp" />
+    <ClCompile Include="src\xmltok.c" />
+    <ClCompile Include="src\xmltok_impl.c" />
+    <ClCompile Include="src\xmltok_ns.c" />
+    <ClCompile Include="src\XMLWriter.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{7bfd448a-a353-40b8-95d4-4e3d42a5fcdd}</ProjectGuid>
+    <RootNamespace>PocoXML</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <TargetName>PocoXMLd</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;POCOXML_EXPORTS;_WINDOWS;_USRDLL;_DLL;XML_EXPORTS;POCO_NO_SOO;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>./include;../Poco_Foundation/include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)$(Platform)\$(Configuration)\</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;POCOXML_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

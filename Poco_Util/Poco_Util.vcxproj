@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Poco\Util\AbstractConfiguration.h" />
+    <ClInclude Include="include\Poco\Util\Application.h" />
+    <ClInclude Include="include\Poco\Util\ConfigurationMapper.h" />
+    <ClInclude Include="include\Poco\Util\ConfigurationView.h" />
+    <ClInclude Include="include\Poco\Util\FilesystemConfiguration.h" />
+    <ClInclude Include="include\Poco\Util\HelpFormatter.h" />
+    <ClInclude Include="include\Poco\Util\IniFileConfiguration.h" />
+    <ClInclude Include="include\Poco\Util\IntValidator.h" />
+    <ClInclude Include="include\Poco\Util\JSONConfiguration.h" />
+    <ClInclude Include="include\Poco\Util\LayeredConfiguration.h" />
+    <ClInclude Include="include\Poco\Util\LocalConfigurationView.h" />
+    <ClInclude Include="include\Poco\Util\LoggingConfigurator.h" />
+    <ClInclude Include="include\Poco\Util\LoggingSubsystem.h" />
+    <ClInclude Include="include\Poco\Util\MapConfiguration.h" />
+    <ClInclude Include="include\Poco\Util\Option.h" />
+    <ClInclude Include="include\Poco\Util\OptionCallback.h" />
+    <ClInclude Include="include\Poco\Util\OptionException.h" />
+    <ClInclude Include="include\Poco\Util\OptionProcessor.h" />
+    <ClInclude Include="include\Poco\Util\OptionSet.h" />
+    <ClInclude Include="include\Poco\Util\PropertyFileConfiguration.h" />
+    <ClInclude Include="include\Poco\Util\RegExpValidator.h" />
+    <ClInclude Include="include\Poco\Util\ServerApplication.h" />
+    <ClInclude Include="include\Poco\Util\Subsystem.h" />
+    <ClInclude Include="include\Poco\Util\SystemConfiguration.h" />
+    <ClInclude Include="include\Poco\Util\Timer.h" />
+    <ClInclude Include="include\Poco\Util\TimerTask.h" />
+    <ClInclude Include="include\Poco\Util\TimerTaskAdapter.h" />
+    <ClInclude Include="include\Poco\Util\Units.h" />
+    <ClInclude Include="include\Poco\Util\Util.h" />
+    <ClInclude Include="include\Poco\Util\Validator.h" />
+    <ClInclude Include="include\Poco\Util\WinRegistryConfiguration.h" />
+    <ClInclude Include="include\Poco\Util\WinRegistryKey.h" />
+    <ClInclude Include="include\Poco\Util\WinService.h" />
+    <ClInclude Include="include\Poco\Util\XMLConfiguration.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\AbstractConfiguration.cpp" />
+    <ClCompile Include="src\Application.cpp" />
+    <ClCompile Include="src\ConfigurationMapper.cpp" />
+    <ClCompile Include="src\ConfigurationView.cpp" />
+    <ClCompile Include="src\FilesystemConfiguration.cpp" />
+    <ClCompile Include="src\HelpFormatter.cpp" />
+    <ClCompile Include="src\IniFileConfiguration.cpp" />
+    <ClCompile Include="src\IntValidator.cpp" />
+    <ClCompile Include="src\JSONConfiguration.cpp" />
+    <ClCompile Include="src\LayeredConfiguration.cpp" />
+    <ClCompile Include="src\LocalConfigurationView.cpp" />
+    <ClCompile Include="src\LoggingConfigurator.cpp" />
+    <ClCompile Include="src\LoggingSubsystem.cpp" />
+    <ClCompile Include="src\MapConfiguration.cpp" />
+    <ClCompile Include="src\Option.cpp" />
+    <ClCompile Include="src\OptionCallback.cpp" />
+    <ClCompile Include="src\OptionException.cpp" />
+    <ClCompile Include="src\OptionProcessor.cpp" />
+    <ClCompile Include="src\OptionSet.cpp" />
+    <ClCompile Include="src\PropertyFileConfiguration.cpp" />
+    <ClCompile Include="src\RegExpValidator.cpp" />
+    <ClCompile Include="src\ServerApplication.cpp" />
+    <ClCompile Include="src\Subsystem.cpp" />
+    <ClCompile Include="src\SystemConfiguration.cpp" />
+    <ClCompile Include="src\Timer.cpp" />
+    <ClCompile Include="src\TimerTask.cpp" />
+    <ClCompile Include="src\Validator.cpp" />
+    <ClCompile Include="src\WinRegistryConfiguration.cpp" />
+    <ClCompile Include="src\WinRegistryKey.cpp" />
+    <ClCompile Include="src\WinService.cpp" />
+    <ClCompile Include="src\XMLConfiguration.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{69949cf8-2917-42a9-bb71-17b4a2f8d9e2}</ProjectGuid>
+    <RootNamespace>PocoUtil</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <TargetName>PocoUtild</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;POCOUTIL_EXPORTS;_WINDOWS;_USRDLL;_DLL;Util_EXPORTS;POCO_NO_SOO;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>../Poco_Foundation/include;../Poco_XML/include;../Poco_JSON/include;./include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)$(Platform)\$(Configuration)\</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;POCOUTIL_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

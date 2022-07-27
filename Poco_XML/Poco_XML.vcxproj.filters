@@ -1,0 +1,528 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Poco">
+      <UniqueIdentifier>{c189c607-3c15-460a-90e3-f2320a868397}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Poco\DOM">
+      <UniqueIdentifier>{d35592c8-d2a1-459e-aa36-7b470579943e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Poco\XML">
+      <UniqueIdentifier>{1a9f32c2-269e-4b42-844e-8fe3fb666ef7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Poco\SAX">
+      <UniqueIdentifier>{7cd1ace5-8ec1-40d2-9da5-990f759e5628}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Poco\DOM\ChildNodesList.h">
+      <Filter>Header Files\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\DOM\Comment.h">
+      <Filter>Header Files\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\DOM\Document.h">
+      <Filter>Header Files\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\DOM\DocumentEvent.h">
+      <Filter>Header Files\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\DOM\DocumentFragment.h">
+      <Filter>Header Files\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\DOM\DocumentType.h">
+      <Filter>Header Files\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\DOM\DOMBuilder.h">
+      <Filter>Header Files\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\DOM\DOMException.h">
+      <Filter>Header Files\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\DOM\DOMImplementation.h">
+      <Filter>Header Files\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\DOM\DOMObject.h">
+      <Filter>Header Files\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\DOM\DOMParser.h">
+      <Filter>Header Files\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\DOM\DOMSerializer.h">
+      <Filter>Header Files\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\DOM\DOMWriter.h">
+      <Filter>Header Files\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\DOM\DTDMap.h">
+      <Filter>Header Files\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\DOM\Element.h">
+      <Filter>Header Files\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\DOM\ElementsByTagNameList.h">
+      <Filter>Header Files\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\DOM\Entity.h">
+      <Filter>Header Files\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\DOM\EntityReference.h">
+      <Filter>Header Files\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\DOM\Event.h">
+      <Filter>Header Files\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\DOM\EventDispatcher.h">
+      <Filter>Header Files\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\DOM\EventException.h">
+      <Filter>Header Files\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\DOM\EventListener.h">
+      <Filter>Header Files\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\DOM\EventTarget.h">
+      <Filter>Header Files\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\DOM\MutationEvent.h">
+      <Filter>Header Files\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\DOM\NamedNodeMap.h">
+      <Filter>Header Files\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\DOM\Node.h">
+      <Filter>Header Files\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\DOM\NodeAppender.h">
+      <Filter>Header Files\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\DOM\NodeFilter.h">
+      <Filter>Header Files\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\DOM\NodeIterator.h">
+      <Filter>Header Files\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\DOM\NodeList.h">
+      <Filter>Header Files\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\DOM\Notation.h">
+      <Filter>Header Files\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\DOM\ProcessingInstruction.h">
+      <Filter>Header Files\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\DOM\Text.h">
+      <Filter>Header Files\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\DOM\TreeWalker.h">
+      <Filter>Header Files\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\DOM\AbstractContainerNode.h">
+      <Filter>Header Files\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\DOM\AbstractNode.h">
+      <Filter>Header Files\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\DOM\Attr.h">
+      <Filter>Header Files\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\DOM\AttrMap.h">
+      <Filter>Header Files\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\DOM\AutoPtr.h">
+      <Filter>Header Files\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\DOM\CDATASection.h">
+      <Filter>Header Files\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\DOM\CharacterData.h">
+      <Filter>Header Files\Poco\DOM</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\SAX\LexicalHandler.h">
+      <Filter>Header Files\Poco\SAX</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\SAX\Locator.h">
+      <Filter>Header Files\Poco\SAX</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\SAX\LocatorImpl.h">
+      <Filter>Header Files\Poco\SAX</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\SAX\NamespaceSupport.h">
+      <Filter>Header Files\Poco\SAX</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\SAX\SAXException.h">
+      <Filter>Header Files\Poco\SAX</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\SAX\SAXParser.h">
+      <Filter>Header Files\Poco\SAX</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\SAX\WhitespaceFilter.h">
+      <Filter>Header Files\Poco\SAX</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\SAX\XMLFilter.h">
+      <Filter>Header Files\Poco\SAX</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\SAX\XMLFilterImpl.h">
+      <Filter>Header Files\Poco\SAX</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\SAX\XMLReader.h">
+      <Filter>Header Files\Poco\SAX</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\SAX\Attributes.h">
+      <Filter>Header Files\Poco\SAX</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\SAX\AttributesImpl.h">
+      <Filter>Header Files\Poco\SAX</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\SAX\ContentHandler.h">
+      <Filter>Header Files\Poco\SAX</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\SAX\DeclHandler.h">
+      <Filter>Header Files\Poco\SAX</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\SAX\DefaultHandler.h">
+      <Filter>Header Files\Poco\SAX</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\SAX\DTDHandler.h">
+      <Filter>Header Files\Poco\SAX</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\SAX\EntityResolver.h">
+      <Filter>Header Files\Poco\SAX</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\SAX\EntityResolverImpl.h">
+      <Filter>Header Files\Poco\SAX</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\SAX\ErrorHandler.h">
+      <Filter>Header Files\Poco\SAX</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\SAX\InputSource.h">
+      <Filter>Header Files\Poco\SAX</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\XML\ParserEngine.h">
+      <Filter>Header Files\Poco\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\XML\QName.h">
+      <Filter>Header Files\Poco\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\XML\ValueTraits.h">
+      <Filter>Header Files\Poco\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\XML\XML.h">
+      <Filter>Header Files\Poco\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\XML\XMLException.h">
+      <Filter>Header Files\Poco\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\XML\XMLStream.h">
+      <Filter>Header Files\Poco\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\XML\XMLStreamParser.h">
+      <Filter>Header Files\Poco\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\XML\XMLStreamParserException.h">
+      <Filter>Header Files\Poco\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\XML\XMLString.h">
+      <Filter>Header Files\Poco\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\XML\XMLWriter.h">
+      <Filter>Header Files\Poco\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\XML\Content.h">
+      <Filter>Header Files\Poco\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\XML\expat.h">
+      <Filter>Header Files\Poco\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\XML\expat_external.h">
+      <Filter>Header Files\Poco\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\XML\Name.h">
+      <Filter>Header Files\Poco\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\XML\NamePool.h">
+      <Filter>Header Files\Poco\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Poco\XML\NamespaceStrategy.h">
+      <Filter>Header Files\Poco\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="src\expat_config.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\iasciitab.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\internal.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\latin1tab.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\nametab.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\siphash.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utf8tab.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\xmlrole.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\xmltok.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\xmltok_impl.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ascii.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\asciitab.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\DeclHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DefaultHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Document.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DocumentEvent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DocumentFragment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DocumentType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DOMBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DOMException.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DOMImplementation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DOMObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DOMParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DOMSerializer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DOMWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DTDHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DTDMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Element.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ElementsByTagNameList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Entity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EntityReference.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EntityResolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EntityResolverImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ErrorHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Event.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EventDispatcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EventException.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EventListener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EventTarget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\InputSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LexicalHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Locator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LocatorImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MutationEvent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Name.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NamedNodeMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NamePool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NamespaceStrategy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NamespaceSupport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Node.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NodeAppender.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NodeFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NodeIterator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NodeList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Notation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ParserEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ProcessingInstruction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\QName.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SAXException.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SAXParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Text.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TreeWalker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ValueTraits.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WhitespaceFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XMLException.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XMLFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XMLFilterImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\xmlparse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XMLReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\xmlrole.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XMLStreamParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XMLStreamParserException.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XMLString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\xmltok.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\xmltok_impl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\xmltok_ns.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XMLWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AbstractContainerNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AbstractNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Attr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Attributes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AttributesImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AttrMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CDATASection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CharacterData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ChildNodesList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Comment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ContentHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
