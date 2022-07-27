@@ -4,3 +4,5 @@ This is a Visual Studio project that directly compiles the Poco Library files fr
  - Configuration file loading
  - Logging to console and asynch file
  - Command line parameters
+
+Has x64 target for Windows only.
